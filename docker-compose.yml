@@ -1,0 +1,18 @@
+version: '3'
+services:
+  data-analysis-web-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - vol:/app
+    ports:
+      - "8000:8501"
+    networks:
+      - appnetworks
+
+volumes:
+  vol:
+
+networks:
+  appnetworks:
