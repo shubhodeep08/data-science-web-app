@@ -16,7 +16,7 @@ st.set_page_config(
          'About': "# This is a header. This is an *extremely* cool app!"
      }
 )
-st.sidebar.title("Data Analysis Web App")
+st.sidebar.title("Data Analysis App")
 
 file_format_type = ["csv", "txt", "xls", "xlsx", "ods", "odt"]
 functions = ["Overview", "Outliers", "Drop Columns", "Drop Categorical Rows", "Drop Numeric Rows", "Rename Columns", "Display Plot", "Handling Missing Data", "Data Wrangling"]
