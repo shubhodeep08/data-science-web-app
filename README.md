@@ -40,7 +40,7 @@ Source Code: [github link](https://github.com/shubhodeep08/data-science-web-app)
 4. You will be automatically redirected the your localhost in brower where you can see you WebApp in live.
 
 ## Architecture of your Project Home Directory
-<p><img  alt="GIF" src="https://github.com/shubhodeep08/files-for-multiplethings/blob/master/rt32.png" width="240" height="410" /></p>
+<p><img  alt="GIF" src="https://github.com/shubhodeep08/rt32.png" width="240" height="410" /></p>
 
 
 ### If you Use this Code for Any Commercial Purpose. Please Don't Forget To mention or give shoutout to [subhodeep08](https://github.com/shubhodeep08).
