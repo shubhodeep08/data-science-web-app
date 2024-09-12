@@ -1,0 +1,23 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: data-web-app
+  labels: 
+    app: data-web-app
+    tier: data-web
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: data-web-app
+  template: 
+    metadata:
+      labels:
+        app: data-web-app
+        tier: data-web
+    spec:
+      containers:
+        - name: data-web-app
+          image: shubhodeep08/data-analysis-web-app:latest
+          ports:
+            - containerPort: 8501
